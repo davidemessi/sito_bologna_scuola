@@ -1,0 +1,1071 @@
+/*reset(uniforma lo stile della pagina per tutti i browser)*/
+body, html{ font-family: 'Rubik', Arial, Helvetica, sans-serif; line-height: 1; font-size: 16px; box-sizing: border-box;margin: 0;padding: 0;}*,*:before,*:after{ box-sizing: border-box; }h1,h2,h3,h4,h5,h6, p, ol, ul{margin: 0 0 1rem 0;padding: 0;}ol, ul{padding-left: 20px; line-height: 1.5;}img{height: auto;}h1{font-size: 4rem;}h2{font-size: 3rem;}h3{font-size: 2rem;}h4{font-size: 1rem;}h5{font-size: 0.8rem;}h6{font-size: 0.6rem;}a{text-decoration: none;}
+        
+
+
+/*HOME*/
+
+#sfondoHome{background: #2E2B54;}
+
+.headerHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+    border: 3px solid #1c1a39;
+}
+
+
+/*menù*/
+
+.menu ul{padding: 0;margin: 0;}
+.menu li{display: inline-block;}
+.menu a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+.menu li:hover{
+    border: 1px solid #E11E38;
+}
+
+/*bottoni*/
+
+.button{
+    background-color: #9d9fa0;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.button:hover{
+    background-color: #E11E38;
+}
+
+.bottoneTrofei{
+    margin-top: auto; margin-left: 30%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+}
+
+.bottoneTrofei:hover{
+    background-color: #E11E38;
+}
+
+.bottoneAllenatore{
+    margin-top: auto; margin-left: 20%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+}
+
+.bottoneAllenatore:hover{
+    background-color: #E11E38;
+}
+
+.bottonePresidente{
+    margin-top: auto; margin-left: 27.5%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+}
+
+.bottonePresidente:hover{
+    background-color: #E11E38;
+}
+
+
+/*home: nascita*/
+
+.nascita{
+    display: flex;
+    padding: 5% 7%;
+}
+
+.nascita_text{
+    width: 50%; padding: 0 20px;
+    color: white;
+}
+
+.nascita_img{
+    width: 50%;
+}
+
+
+/*home: scudetto*/
+
+.scudetto{
+    display: flex;
+    padding: 5% 7%;
+}
+
+.scudetto_img{
+    width: 55%;
+}
+
+.scudetto_text{
+    width: 50%; padding: 0 20px;
+    color: white;
+}
+
+/*home: allenatore*/
+
+.allenatore{
+    display:flex;
+    padding: 5% 7%;
+}
+
+.allenatore_text{
+    width: 40%; padding: 0 20px;
+    color: white;
+}
+
+.allenatore_img{
+    width: 60%;
+}
+
+
+/*home: presidente*/
+
+.presidente{
+    display: flex;
+    padding: 5% 7%;
+}
+
+.presidente_text{
+    width: 45%; padding: 0 20px;
+    color: white;
+}
+
+.presidente_img{
+    width: 55%;
+}
+
+.img-res{height: auto; width: 100%;}
+
+
+/*home: social*/
+
+.instagram{
+    width: 7%;
+    position: absolute;  top: 435%; left: 20%;
+}
+
+.facebook{
+    width: 8%;
+    position: absolute;  top: 434%; left: 30%;
+}
+
+.youtube{
+    width: 7%;
+    position: absolute;  top: 435%; left: 40%;
+}
+
+.tiktok{
+    width: 12.5%;
+    position: absolute;  top: 429.5%; left: 48%;
+}
+
+.threads{
+    width: 19%;
+    position: absolute;  top: 431.5%; left: 56%;
+}
+
+.twitter{
+    width: 11.5%;
+    position: absolute;  top: 433.5%; left: 71%;
+}
+
+/*LOGIN*/
+
+    .menuLogin ul{padding: 0;margin: 0;}
+    .menuLogin li{display: inline-block;}
+    .menuLogin a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+    .menuLogin li:hover{
+    border: 1px solid #E11E38;
+}
+
+#sfondoLogin{
+    background-color: #2E2B54;
+}
+
+.headerLogin{
+    background-color: #2E2B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+
+    .MyAccount{border: 1px solid #E11E38;}
+    border: 3px solid #1c1a39;
+
+}
+
+
+#fname{
+    position: absolute; top: 21.5%; left: 13%;
+    padding-left: 60px; padding-right: 60px; padding-top: 15px; padding-bottom: 15px;
+    background-color: #2E2B54;
+    border: 2px solid #E11E38;
+}
+
+#lname{
+    position: absolute; top: 40%; left: 13%;
+    padding-left: 60px; padding-right: 60px; padding-top: 15px; padding-bottom: 15px;
+    background-color: #2E2B54;
+    border: 2px solid #E11E38;
+}
+
+.username_text{
+    position: absolute; top: 16.5%; left: 18.7%;
+    color: #2E2B54;
+}
+
+.password_text{
+    position: absolute; top: 35%; left: 18.7%;
+    color: #2E2B54;
+}
+
+.bottoneAccedere{
+    position: absolute; top: 30%; right: 18%;
+    border: 2px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 20px 80px;
+    color: white;
+}
+
+.bottoneAccedere:hover{
+    background-color: #E11E38;
+    color: #2E2B54;
+}
+
+
+/*STAGIONE23/24*/
+
+    .menuStagione ul{padding: 0;margin: 0;}
+    .menuStagione li{display: inline-block;}
+    .menuStagione a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+    .menuStagione li:hover{
+    border: 1px solid #E11E38;
+}
+
+.headerStagione{
+    background-color: #2E2B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+
+    .stagione{
+        border: 1px solid #E11E38;
+    }
+    border: 3px solid #1c1a39;
+}
+
+#sfondoStagione{
+    background-color: #2E2B54;
+}
+
+#classifica{
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.titoloClassifica{
+    margin-top: 3%; margin-left: 23.5%;
+    color: white;
+}
+
+.table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .td, th {
+    margin: auto;
+    border: 2px solid #1c1a39;
+    text-align: left;
+    padding-top: 15px; padding-bottom: 15px; padding-left: 30px; padding-right: 30px;
+    background-color: white;
+  }
+  
+  .tr:nth-child(even) {
+    margin: auto;
+    background-color: white;
+  }
+
+  #partite{
+    margin: auto;
+  }
+
+  .titoloPartite{
+    margin-top: 5%; margin-left: 40%;
+    color: white;
+  }
+
+  .risultato{
+    font-size: 120%;
+    padding-left: 5.5%;
+  }
+
+  /*STADIO*/
+
+    .menuStadio ul{padding: 0;margin: 0;}
+    .menuStadio li{display: inline-block;}
+    .menuStadio a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+    .menuStadio li:hover{
+    border: 1px solid #E11E38;
+}
+
+.headerStadio{
+    background-color: #2E2B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+
+    .stadio{
+        border: 1px solid #E11E38;
+    }
+    border: 3px solid #1c1a39;
+}
+
+#sfondoStadio{
+    background-color: #2E2B54;
+}
+
+.storia{
+    display: flex;
+    padding: 5% 7%;
+}
+
+.storia_text{
+    width: 50%; padding: 0 20px;
+    color: white;
+}
+
+.storia_img1{
+    width: 50%;
+}
+
+.storia_img2{
+    width: 43%;
+    margin-left: 50%;
+    position: absolute; top: 155%
+}
+
+.Tour{
+    margin-top: auto; margin-left: 18%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+}
+
+.Tour:hover{
+    background-color: #E11E38;
+}
+
+.titoloStadio{
+    color: white;
+    margin-top: 10%;
+    font-size: 450%;
+}
+.nuovoStadio{
+    display: flex;
+    padding: 5% 7%;
+}
+
+.nuovoStadio_img{
+    width: 55%;
+    position: absolute; top: 250%;
+}
+
+.nuovoStadio_text{
+    position: absolute; top: 255%; left: 55%;
+    width: 35%; padding: 0 20px;
+    color: white;
+    font-size: 80%;
+}
+
+.videoStadio{
+    position: absolute; top: 295%;
+    margin-left: 61.5%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 15px 60px;
+    color: white;
+}
+
+.videoStadio:hover{
+    background-color: #E11E38;
+}
+
+
+
+
+/*SQUADRA*/
+
+    .menuSquadra ul{padding: 0;margin: 0;}
+    .menuSquadra li{display: inline-block;}
+    .menuSquadra a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+    .menuSquadra li:hover{
+    border: 1px solid #E11E38;
+}
+
+.headerSquadra{
+    background-color: #2E2B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+
+    .squadra{
+        border: 1px solid #E11E38;
+    }
+    border: 3px solid #1c1a39;
+}
+
+#sfondoSquadra{
+    background-color: #2E2B54;
+}
+
+
+
+/*PORTIERI: PRIMA RIGA*/
+
+.fotoPortieri{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.portieri_text{
+    margin-top: 3%; margin-left: 38.7%;
+    color: #E11E38;
+}
+
+.portiere1{
+    width: 90%;
+}
+
+.portiere2{
+    width: 90%;
+}
+
+.portiere3{
+    width: 90%;
+}
+
+.nomiPortieri{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomePortiere1{
+    font-size: 300%;
+    margin-right: 6.5%;
+}
+
+.nomePortiere2{
+    font-size: 300%;
+    margin-right: 7%;
+}
+
+.nomePortiere3{
+    font-size: 300%;
+}
+
+
+
+/*DIFENSORI: PRIMA RIGA*/
+
+.fotoDifensoriRiga1{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.difensori_text{
+    margin-top: 12.5%; margin-left: 38.7%;
+    color: #E11E38;
+}
+
+.difensore1{
+    width: 90%;
+}
+
+.difensore2{
+    width: 90%;
+}
+
+.difensore3{
+    width: 90%;
+}
+
+.nomiDifensoriRiga1{
+    display: flex;
+    margin-left: 20.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeDifensore1{
+    font-size: 300%;
+    margin-right: 12%;
+}
+
+.nomeDifensore2{
+    font-size: 300%;
+    margin-right: 8%;
+}
+
+.nomeDifensore3{
+    font-size: 300%;
+}
+
+
+
+/*DIFENSORI: SECONDA RIGA*/
+
+.fotoDifensoriRiga2{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+
+.difensore4{
+    width: 90%;
+}
+
+.difensore5{
+    width: 90%;
+}
+
+.difensore6{
+    width: 90%;
+}
+
+.nomiDifensoriRiga2{
+    display: flex;
+    margin-left: 15.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeDifensore4{
+    font-size: 300%;
+    margin-right: 4.5%;
+}
+
+.nomeDifensore5{
+    font-size: 300%;
+    margin-right: 3%;
+}
+
+.nomeDifensore6{
+    font-size: 300%;
+}
+
+
+
+/*DIFENSORI: TERZA RIGA*/
+
+.fotoDifensoriRiga3{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+
+.difensore7{
+    width: 90%;
+}
+
+.difensore8{
+    width: 90%;
+}
+
+.difensore9{
+    width: 90%;
+}
+
+.nomiDifensoriRiga3{
+    display: flex;
+    margin-left: 19%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeDifensore7{
+    font-size: 300%;
+    margin-right: 7.8%;
+}
+
+.nomeDifensore8{
+    font-size: 300%;
+    margin-right: 5.5%;
+}
+
+.nomeDifensore9{
+    font-size: 300%;
+}
+
+
+
+/*DIFENSORI: QUARTA RIGA*/
+
+.fotoDifensoriRiga4{
+    display: flex;
+    margin-left: 38%; margin-top: 1%;
+}
+
+
+.difensore10{
+    width: 90%;
+}
+
+.nomiDifensoriRiga4{
+    display: flex;
+    margin-left: 39.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeDifensore10{
+    font-size: 300%;
+}
+
+
+
+/*CENTROCAMPISTI: PRIMA RIGA*/
+
+.fotoCentrocampistiRiga1{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.centrocampisti_text{
+    margin-top: 12.5%; margin-left: 31%;
+    color: #E11E38;
+}
+
+.centrocampista1{
+    width: 90%;
+}
+
+.centrocampista2{
+    width: 90%;
+}
+
+.centrocampista3{
+    width: 90%;
+}
+
+.nomiCentrocampistiRiga1{
+    display: flex;
+    margin-left: 19.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeCentrocampista1{
+    font-size: 300%;
+    margin-right: 12.5%;
+}
+
+.nomeCentrocampista2{
+    font-size: 300%;
+    margin-right: 7.5%;
+}
+
+.nomeCentrocampista3{
+    font-size: 300%;
+}
+
+
+
+/*CENTROCAMPISTI: SECONDA RIGA*/
+
+.fotoCentrocampistiRiga2{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.centrocampista4{
+    width: 90%;
+}
+
+.centrocampista5{
+    width: 90%;
+}
+
+.centrocampista6{
+    width: 90%;
+}
+
+.nomiCentrocampistiRiga2{
+    display: flex;
+    margin-left: 17.3%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeCentrocampista4{
+    font-size: 300%;
+    margin-right: 6%;
+}
+
+.nomeCentrocampista5{
+    font-size: 300%;
+    margin-right: 3%;
+}
+
+.nomeCentrocampista6{
+    font-size: 300%;
+}
+
+
+
+/*CENTROCAMPISTI: TERZA RIGA*/
+
+.fotoCentrocampistiRiga3{
+    display: flex;
+    margin-left: 27.5%; margin-top: 1%;
+}
+
+.centrocampista7{
+    width: 90%;
+}
+
+.centrocampista8{
+    width: 90%;
+}
+
+.nomiCentrocampistiRiga3{
+    display: flex;
+    margin-left: 29.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeCentrocampista7{
+    font-size: 300%;
+    margin-right: 10%;
+}
+
+.nomeCentrocampista8{
+    font-size: 300%;
+}
+
+
+
+/*ATTACCANTI: PRIMA RIGA*/
+
+.fotoAttaccantiRiga1{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.attaccanti_text{
+    margin-top: 12.5%; margin-left: 36%;
+    color: #E11E38;
+}
+
+.attaccante1{
+    width: 90%;
+}
+
+.attaccante2{
+    width: 90%;
+}
+
+.attaccante3{
+    width: 90%;
+}
+
+.nomiAttaccantiRiga1{
+    display: flex;
+    margin-left: 17.6%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeAttaccante1{
+    font-size: 300%;
+    margin-right: 9%;
+}
+
+.nomeAttaccante2{
+    font-size: 300%;
+    margin-right: 8.7%;
+}
+
+.nomeAttaccante3{
+    font-size: 300%;
+}
+
+
+
+/*ATTACCANTI: SECONDA RIGA*/
+
+.fotoAttaccantiRiga2{
+    display: flex;
+    margin-left: 16%; margin-top: 1%;
+}
+
+.attaccante4{
+    width: 90%;
+}
+
+.attaccante5{
+    width: 95%;
+}
+
+.attaccante6{
+    width: 95%;
+}
+
+.nomiAttaccantiRiga2{
+    display: flex;
+    margin-left: 20.5%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeAttaccante4{
+    font-size: 300%;
+    margin-right: 11.75%;
+}
+
+.nomeAttaccante5{
+    font-size: 300%;
+    margin-right: 8.25%;
+}
+
+.nomeAttaccante6{
+    font-size: 300%;
+}
+
+
+
+/*ALLENATORI*/
+
+.fotoAllenatori{
+    display: flex;
+    margin-left: 16.75%; margin-top: 3%;
+}
+
+.allenatori_text{
+    margin-top: 12.5%; margin-left: 36%;
+    color: #E11E38;
+}
+
+.allenatore1{
+    width: 100%;
+}
+
+.allenatore2{
+    width: 100%;
+    margin-left: 80%;
+}
+
+
+.nomiAllenatori{
+    display: flex;
+    margin-left: 11%; margin-top: 1%;
+    text-align: center;
+    font-family: center;
+    color: white;
+}
+
+.nomeAllenatore1{
+    font-size: 300%;
+    margin-right: 8%;
+}
+
+.nomeAllenatore2{
+    font-size: 300%;
+    margin-right: 8.7%;
+}
+
+
+
+
+
+
+
+
+/*STORE*/
+
+.menuStore ul{padding: 0;margin: 0;}
+.menuStore li{display: inline-block;}
+.menuStore a{padding: 15px 20px;display: block; color: white; font-weight: bold;}
+
+.menuStore li:hover{
+    border: 1px solid #E11E38;
+}
+
+#sfondoStore{
+    background-color: #2E2B54;
+}
+
+.headerStore{
+    background-color: #2E2B54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10% 15px 10%;
+
+    .store{
+        border: 1px solid #E11E38;
+    }
+    border: 3px solid #1c1a39;
+}
+
+.MerchSfondiPrimaRiga{
+    display: flex;
+}
+
+.sfondoMerch1{
+    margin:  14%;
+    width: 90%;
+}
+
+.sfondoMerch2{
+    margin: 14%;
+    width: 90%;
+}
+
+.sfondoMerch3{
+    margin: 14%;
+    width: 90%;
+}
+
+.MerchSfondiSecondaRiga{
+    display: flex;
+}
+
+.sfondoMerch4{
+    margin: 14%;
+    width: 90%;
+
+}
+.sfondoMerch5{
+    margin: 14%;
+    width: 90%;
+}
+
+.sfondoMerch6{
+    margin: 14%;
+    width: 90%;
+}
+
+.MerchDivisePrimaRiga{
+    display: flex;
+}
+
+.maglia1{
+    position: absolute; top: 23%; left: 3.6%;
+    width: 30%;
+}
+
+.maglia2{
+    position: absolute; top: 23%; left: 35%;
+    width: 30%;
+}
+
+.maglia3{
+    position: absolute; top: 23%; left: 66.4%;
+    width: 30%;
+}
+
+.MerchDiviseSecondaRiga{
+    display: flex;
+}
+
+.pantaloni1{
+    position: absolute; top: 120%; left: 3.6%;
+    width: 30%;
+}
+
+.pantaloni2{
+    position: absolute; top: 120%; left: 35%;
+    width: 30%;
+}
+
+.pantaloni3{
+    position: absolute; top: 120%; left: 66.4%;
+    width: 30%;
+}
+
+.maglia1_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: absolute; top: 88%; left: 4.7%;
+}
+
+.maglia2_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: absolute; top: 88%; left: 35.7%;
+}
+
+.maglia3_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: absolute; top: 88%; left: 66.4%;
+}
+
+.pantaloni1_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    position: absolute; top: 184%; left: 5%;
+}
+
+.pantaloni2_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    position: absolute; top: 184%; left: 35.8%;
+}
+
+.pantaloni3_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    position: absolute; top: 184%; left: 66.7%;
+}
+
+.bottoneMerch{
+    margin-top: auto; margin-left: 15%;
+    border: 1px solid #E11E38;
+    background-color: #2E2B54;
+    display: inline-block;
+    padding: 3% 30%;
+    color: white;
+}
+
+.bottoneMerch:hover{
+    background-color: #E11E38;
+}
